@@ -1,2 +1,8 @@
 node_modules
 .vscode
+public/dist/*
+views/admin/partials/*.ejs
+views/admin/*.ejs
+views/partials/*.ejs
+views/*.ejs
+.env
