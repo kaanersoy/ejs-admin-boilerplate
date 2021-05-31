@@ -2,7 +2,7 @@
 
 I was building a static website with EJS and Express (Node.js).
 
-And i said to myself: "why don't I open source this?"
+And i said to myself: `"why don't I open source this?"`
 
 > Tada 🎉
 
