@@ -1,4 +1,4 @@
-# Twitter Clone with Vue.js 🐦
+# Static Website Boilerplate w/ EJS & Express
 
 I was building a static website with EJS and Express (Node.js).
 
