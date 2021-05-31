@@ -10,7 +10,7 @@ And i said to myself: `"why don't I open source this?"`
 
 - Node.js / Express Framework
 - MongoDB 
-- Mongoose ODB
+- Mongoose ODM
 - EJS for HTML Templating
 
 ## 📦 Installation
