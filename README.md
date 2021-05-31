@@ -33,19 +33,32 @@ With npm:
 cd ./ejs-admin-boilerplate && npm install
 ```
 
-### 🏃‍♂️ Write some code
+### 💻 Write some code
 
-Write some `.ejs` file in `/views` and start the project with:
+Write some `.ejs` file in `/views`.
 
-With yarn:
+
+Info about folders:
+
+- Routes: [/routes/README.md](https://github.com/kaanersoy/ejs-admin-boilerplate/blob/master/routes/README.md)
+
+- Views: [/views/README.md](https://github.com/kaanersoy/ejs-admin-boilerplate/blob/master/views/README.md)
+
+- Models: [/models/README.md](https://github.com/kaanersoy/ejs-admin-boilerplate/blob/master/models/README.md)
+
+
+### 🏃 Start the project!
+
 ```bash
+## For dev
 yarn dev
+
+## For production
+yarn start
+# or
+npm run start
 ```
 
-With npm:
-```
-npm run dev
-```
 
 ### 🖊 Contributors:
 
