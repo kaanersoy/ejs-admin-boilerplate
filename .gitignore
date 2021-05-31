@@ -1,8 +1,18 @@
+# Ignore big-files
 node_modules
 .vscode
+
+# Ignore local project files.
 public/dist/*
 views/admin/partials/*.ejs
 views/admin/*.ejs
 views/partials/*.ejs
 views/*.ejs
+
+# Ignore Enviroment variables file
 .env
+
+# Don't ignore this files!
+!views/layout.example.ejs
+!views/partials/head.example.ejs
+!views/index.example.ejs
