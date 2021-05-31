@@ -1,16 +1,11 @@
 const express = require('express');
 const app = express();
+const baseRouter = require('./routes/base.js')
 
 app.set('view engine', 'ejs')
 
-app.get('/', (req,res) => {
-  res.render('index', {data: [
-    'yey',
-    'string',
-    'template'
-  ]})
-})
 
-
+// Routes
+app.use(baseRouter)
 
 app.listen(3000);
