@@ -40,11 +40,11 @@ Write some `.ejs` file in `/views`.
 
 Info about folders:
 
-- Routes: [/routes/README.md](https://github.com/kaanersoy/ejs-admin-boilerplate/blob/master/routes/README.md)
+- Routes: [/routes/README.md](https://github.com/kaanersoy/ejs-admin-boilerplate/tree/master/routes)
 
-- Views: [/views/README.md](https://github.com/kaanersoy/ejs-admin-boilerplate/blob/master/views/README.md)
+- Views: [/views/README.md](https://github.com/kaanersoy/ejs-admin-boilerplate/tree/master/views)
 
-- Models: [/models/README.md](https://github.com/kaanersoy/ejs-admin-boilerplate/blob/master/models/README.md)
+- Models: [/models/README.md](https://github.com/kaanersoy/ejs-admin-boilerplate/tree/master/models)
 
 
 ### 🏃 Start the project!
