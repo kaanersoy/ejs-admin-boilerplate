@@ -2,7 +2,7 @@
 
 - Edit the `layout.example.ejs` file name to `layout.ejs`.
 
-- `layout.ejs` has a `<%- body %>` section. In this section will be change every route.
+- `layout.ejs` has a `<%- body %>` section. This section will be change every route.
 
 - Components will be in the `/partials` folder. You can add `<head></head>` part in the `head.ejs`.
 
