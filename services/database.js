@@ -19,7 +19,9 @@ module.exports = class {
     mongoose.connect(process.env.MONGODB_URI, connectionOptions);
   }
 
-  createUser(user) {
+  async createUser(user) {
+    const isExists = await this.checkUserExists({ username: user.username });
+    if (isExists) return { error: true, message: 'User is exists' };
     const newUser = new this.User(user);
     return newUser.save();
   }
@@ -30,5 +32,16 @@ module.exports = class {
       return true;
     }
     return false;
+  }
+
+  async getUserByUsername() {
+    const user = this.User.findOne({ username: user.username });
+    if (user.username) {
+      return user;
+    }
+    return {
+      error: true,
+      message: 'User is not found'
+    };
   }
 };
